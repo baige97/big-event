@@ -12,6 +12,10 @@
     height: 60px;
     text-align: center;
     line-height: 60px;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .text_avatar {
@@ -25,10 +29,10 @@
     border-radius: 16px;
     font-size: 20px;
 
-    display: none;
+    /* display: none; */
 }
 
-.layui-body{
+.layui-body {
     overflow: hidden;
 }
 
